@@ -929,3 +929,67 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 #a_983a_0{font-size: 15px; color: #ffffff;}
 #div_983a_49{border-color: #25aae1 ;border-bottom-width: 2px ;}
 #div_983a_50{padding-bottom: 0px ;}
+
+
+        .slider {
+            width: 90%;
+            margin: 0px auto;
+        }
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+        color: black;
+        }
+
+
+        .slick-active {
+        opacity: .5;
+        }
+
+        .slick-current {
+        opacity: 1;
+        }
+        .carousel-item {
+            height: 100vh;
+            max-height: 420px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .features-icons {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        }
+        .features-icons .features-icons-item {
+        max-width: 20rem;
+        }
+        .features-icons .features-icons-item .features-icons-icon {
+        height: 7rem;
+        }
+        .features-icons .features-icons-item .features-icons-icon i {
+        font-size: 4.5rem;
+        }
+
+        .call-to-action {
+        position: relative;
+        background-color: #343a40;
+        background: url("images/e-learning.png") no-repeat center center;
+        background-size: cover;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        }
+        .call-to-action:before {
+        content: "";
+        position: absolute;
+        background-color: #1c375e;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+        }
