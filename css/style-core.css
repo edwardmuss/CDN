@@ -1083,7 +1083,8 @@ input[type="reset"]:focus {
 }
 
 .kingster-navigation .sf-menu>.kingster-mega-menu .sf-mega-section-wrap {
-	overflow: hidden;
+	overflow: auto;
+	height:350px;
 	border-top-width: 1px;
 	border-top-style: solid;
 }
@@ -1093,8 +1094,8 @@ input[type="reset"]:focus {
 }
 
 .kingster-navigation .sf-menu>.kingster-mega-menu .sf-mega-section {
-	padding-bottom: 999px;
-	margin-bottom: -999px;
+	/*padding-bottom: 999px;*/
+	/*margin-bottom: -999px;*/
 	border-left-width: 1px;
 	border-left-style: solid;
 }
